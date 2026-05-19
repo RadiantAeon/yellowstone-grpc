@@ -65,6 +65,7 @@ tonic-prost = "0.14.0"
 tonic-prost-build = "0.14.0"
 tonic-health = "0.14.0"
 vergen = "9.0.6"
+wincode = "0.4.9"
 
 # Agave Monorepo
 agave-geyser-plugin-interface = "~3.1.0"

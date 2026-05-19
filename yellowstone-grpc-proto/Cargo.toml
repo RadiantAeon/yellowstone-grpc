@@ -28,6 +28,7 @@ smallvec = { workspace = true, optional = true }
 thiserror = { workspace = true, optional = true }
 tonic = { workspace = true, optional = true }
 tonic-prost = { workspace = true, optional = true }
+wincode = { workspace = true, optional = true }
 
 # Agave Monorepo
 agave-geyser-plugin-interface = { workspace = true, optional = true }
@@ -77,7 +78,8 @@ convert = [
     "dep:solana-transaction",
     "dep:solana-transaction-context",
     "dep:solana-transaction-error",
-    "dep:solana-transaction-status"
+    "dep:solana-transaction-status",
+    "dep:wincode"
 ]
 plugin = [
     "convert",
